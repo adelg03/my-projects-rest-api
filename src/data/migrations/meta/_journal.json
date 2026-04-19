@@ -15,6 +15,13 @@
       "when": 1775984457795,
       "tag": "0001_green_proudstar",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1776582592631,
+      "tag": "0002_rainy_crusher_hogan",
+      "breakpoints": true
     }
   ]
 }
