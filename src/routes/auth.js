@@ -25,7 +25,7 @@ import {
 } from '../utils/validation.js'
 const auth = new Hono()
 
-auth.post('/register', authLimiter, async (c) => {
+auth.post('/register', async (c) => {
   const payload = await parseJsonBody(c)
   const details = validateRegister(payload)
 
